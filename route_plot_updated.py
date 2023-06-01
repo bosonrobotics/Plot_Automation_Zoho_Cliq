@@ -100,5 +100,5 @@ plt.title("%s Target vs Actual" %((args.rosbag)[find_index:(len(args.rosbag)-4)]
 plt.legend()
 fig.text(.5, .0001, msg, ha='center', fontsize="small",fontweight='extra bold')
 png_file = os.path.join(dir_path , f"{Path(args.rosbag).stem}.png")
-# png_file="%s.png" %(Path(args.rosbag).stem)
+#png_file="%s.png" %(Path(args.rosbag).stem)
 plt.savefig(png_file)

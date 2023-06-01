@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/anish/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/anish/catkin_ws/src/autopilot_boson/collision_check/include/**",
+        "/home/anish/catkin_ws/src/autopilot_boson/costmap_generator/include/**",
+        "/home/anish/catkin_ws/src/autopilot_boson/lidar_obstacle_detector/include/**",
+        "/home/anish/catkin_ws/src/boson_sim/prius_msgs/include/**",
+        "/home/anish/catkin_ws/src/autopilot_boson/sensor_drivers/2D_lidar/slamware_ros_sdk_linux-aarch64-gcc9/slamware_ros_sdk/include/**",
+        "/home/anish/catkin_ws/src/boson_sim/vehicle_description/include/**",
+        "/home/anish/catkin_ws/src/autopilot_boson/vehicle_safety_cpp/include/**",
+        "/home/anish/catkin_ws/src/autopilot_boson/sensor_drivers/zed-ros-wrapper/zed-ros-interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
